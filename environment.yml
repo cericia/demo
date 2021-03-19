@@ -1,0 +1,24 @@
+name: gba_qld_seismic
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  # environment for notebooks
+  - ipykernel
+  - jupyter
+  # REST/fetching web data
+  - requests
+  # visualisation
+  - matplotlib
+  # geospatial libraries
+  - geopandas
+  - cartopy
+  - shapely
+  - rasterio
+  - descartes
+  - affine
